@@ -1,0 +1,6 @@
+{
+  "name": "Amshi Cafe",
+  "description": "Premium QR ordering and menu management system for Amshi Cafe with real-time table sync and WhatsApp integrations.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,29 @@
+{
+  "entities": {
+    "Booking": {
+      "title": "Booking",
+      "description": "Table reservation request representing client-side table books",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "userEmail": { "type": "string" },
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "tableNum": { "type": "number" },
+        "guests": { "type": "number" },
+        "date": { "type": "string" },
+        "time": { "type": "string" },
+        "requests": { "type": "string" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["userId", "name", "phone", "date", "time"]
+    }
+  },
+  "firestore": {
+    "bookings/{bookingId}": {
+      "schema": "Booking",
+      "description": "Collection of table bookings"
+    }
+  }
+}

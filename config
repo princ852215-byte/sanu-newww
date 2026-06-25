@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+	name = Amshi Cafe
+	email = sosanu491@gmail.com
+[init]
+	defaultBranch = main
+[remote "origin"]
+	url = https://github.com/mehtasanu88-crypto/Sanu-web.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
