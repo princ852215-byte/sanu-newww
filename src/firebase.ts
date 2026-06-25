@@ -17,7 +17,7 @@ export const auth = getAuth(app);
 
 let dbInstance: any;
 try {
-  dbInstance = getFirestore(app, "ai-studio-e9cd0358-eb04-4700-afdf-484b87a4a2bd");
+  dbInstance = getFirestore(app, "getFirestore(app)");
 } catch (e) {
   console.warn("Firestore named database initialization failed, falling back to default...", e);
   try {
